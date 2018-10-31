@@ -25,7 +25,7 @@ public class NewTest extends BasePage
   @AfterClass
   public void afterClass() 
   {
-	  
+	  driver.close();
   }
 
 }
