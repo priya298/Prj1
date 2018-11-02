@@ -19,7 +19,7 @@ public class NewTest extends BasePage
   @Test
   public void f() 
   {
-	  driver.findElement(By.id("twotabsearchtextbox")).sendKeys("videos");
+	  driver.findElement(By.id("wotabsearchtextbox")).sendKeys("videos");
   }
   
   @AfterClass
